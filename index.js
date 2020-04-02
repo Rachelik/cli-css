@@ -32,7 +32,3 @@ if (nodeDoc[2] === "hex") {
     var ggreen = 0;
     console.log(`\x1b[31;1;${red};${green};${blue}m%s\x1b[0m`, conversionInHex);
 };
-
-
-
-// this special console will create colored output
