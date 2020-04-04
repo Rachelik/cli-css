@@ -11,7 +11,6 @@ const convertRgbToHsl = require("./rgbtohsl.js");
 //Part 4 able to  take in a number of colors that is, to convert colors.txt file too
 if (nodeDoc[2] === "hex") {
     for(var i = 3; i < nodeDoc.length; i++) {
-        // console.log(nodeDoc[i]);
 
         var red = convertHexToRgb.hexToRgb(nodeDoc[i]).r;
         var green = convertHexToRgb.hexToRgb(nodeDoc[i]).g;
